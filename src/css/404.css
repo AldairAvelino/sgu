@@ -40,7 +40,7 @@
   }
   
   .notfound .notfound-404 h1 {
-    font-family: 'Montserrat-Black', sans-serif;
+    font-family: 'Montserrat-Black', Georgia;
     position: absolute;
     left: 50%;
     top: 50%;
@@ -75,7 +75,7 @@
   }
   
   .notfound a {
-    font-family: 'Montserrat-Black', sans-serif;
+    font-family: 'Montserrat-Black', Georgia;
     display: inline-block;
     text-transform: uppercase;
     color: #ff005a;
