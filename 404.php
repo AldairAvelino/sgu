@@ -15,7 +15,7 @@
 				<h1>404</h1>
 				<h2>Page not found</h2>
 			</div>
-			<a href="index.php">Home</a>
+			<a href="index.php">Back To Home</a>
 		</div>
 	</div>
 </body>
