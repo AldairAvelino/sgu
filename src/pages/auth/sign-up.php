@@ -63,6 +63,9 @@
         <button type="button" id="nextBtn" onclick="nextPrev(1)">Next</button>
       </div>
     </div>
+
+    <a href="login.php">Login to Account</a>
+    <a href="../../../index.php">Home</a>
     
     <div style="text-align:center;margin-top:40px;">
       <span class="step"></span>

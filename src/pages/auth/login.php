@@ -16,6 +16,8 @@
       <p><input placeholder="Insert Your E-mail Address" type="email" name="email" required></p>
       <p><input placeholder="Insert Your Password" type="password" name="password" required></p>
       <button class="btn" type="submit" name="login">Login</button>
+      <a href="sign-up.php">Create Account</a>
+      <a href="../../../index.php">Home</a>
     </div>
     
   </form>
