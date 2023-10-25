@@ -16,10 +16,18 @@ if(isset($login)){
         session_start();
 
         while ($linha = mysqli_fetch_array($search)) {
+            $_SESSION["id"] = $linha['id'];
+            $_SESSION["name"] = $linha['name'];
+            $_SESSION["surname"] = $linha['surname'];
+            $_SESSION["profission"] = $linha['profission'];
+            $_SESSION["status"] = $linha['status'];
             $_SESSION["email"] = $linha['email'];
-            $_SESSION["passord"] = $linha['password'];
+            $_SESSION["gender"] = $linha['gender'];
+            $_SESSION["birth"] = $linha['birth'];
+            $_SESSION["role"] = $linha['role'];
+            $_SESSION["nif"] = $linha['nif'];
         }
 
-        header("Location: ../../../index.php");
+        header("Location: ../../../user.php");
     }
 }
