@@ -7,11 +7,11 @@
   <link rel="stylesheet" href="../../css/auth.css">
 </head>
 <body>
-  <form id="regForm" action="" method="post">
+  <form id="regForm" action="../../actions/auth/sign-up.php" method="post">
     <h1>Create Account</h1>
     <div class="tab">
-      <p><input placeholder="First Name" type="text" name="name" oninput="this.className = ''"></p>
-      <p><input placeholder="Last Name" type="text" name="surname" oninput="this.className = ''"></p>
+      <p><input placeholder="First Name" type="text" name="name" required oninput="this.className = ''"></p>
+      <p><input placeholder="Last Name" type="text" name="surname" required oninput="this.className = ''"></p>
     </div>
     
     <div class="tab">
@@ -35,8 +35,8 @@
     </div>
     
     <div class="tab">
-      <p><input placeholder="Insert Your N.I.F." type="text" name="nif" oninput="this.className = ''"></p>
-      <p><input type="date" name="birth_data"></p>
+      <p><input placeholder="Insert Your N.I.F." type="text" name="nif" required oninput="this.className = ''"></p>
+      <p><input type="date" name="birth" required></p>
     </div>
     
     <div class="tab">
@@ -49,12 +49,12 @@
         </select>
       </p>
       
-      <p><input placeholder="Insert Your Profession" type="text" name="profission" oninput="this.className = ''"></p>
+      <p><input placeholder="Insert Your Profession" type="text" name="profission" required oninput="this.className = ''"></p>
     </div>
     
     <div class="tab">
-      <p><input placeholder="Insert Your E-mail Address" type="email" name="E-mail" oninput="this.className = ''"></p>
-      <p><input placeholder="Insert Your Password" type="password" name="password" oninput="this.className = ''"></p>
+      <p><input placeholder="Insert Your E-mail Address" type="email" name="email" required oninput="this.className = ''"></p>
+      <p><input placeholder="Insert Your Password" type="password" name="password" required oninput="this.className = ''"></p>
     </div>
     
     <div style="overflow:auto;">
