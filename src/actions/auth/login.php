@@ -20,6 +20,6 @@ if(isset($login)){
             $_SESSION["passord"] = $linha['password'];
         }
 
-        header("Location: ../../pages/principal.php");
+        header("Location: ../../../index.php");
     }
 }
