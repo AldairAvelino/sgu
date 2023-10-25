@@ -1,0 +1,85 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	font-size: 140%;
+	line-height: 140%;
+	font-family:'Reem Kufi', sans-serif;
+}
+#header{
+	position: relative;
+	top: 0;
+	width: 100%;
+	background-color: black;
+	color: white;
+	padding: .5% 0;
+	text-align: center;
+	font-weight: 600;
+}
+.black-out{
+	height:100vh;
+	width:100%;
+	background: linear-gradient(90deg, #f8ff00 0%, #3ad59f 100%);
+}
+
+/*-----------------Menu------------------*/
+.menu{
+    color: #21a179;
+    padding:0.05% 0.5%;
+    border: 3px solid #21a179;
+    border-radius:0 0 10px 10px;
+    position: fixed;
+    left: -110px;
+    top: 50%;
+    transform: translateY(-50%);
+    transform: rotate(-90deg);
+    pointer-events: none;
+    z-index: 10;
+}
+nav{
+    height: 100vh;
+    width: 280px;
+    background-color: transparent;
+    position: fixed;
+    left: 0;
+    top: 0;
+    transform: translateX(-90%);
+    transition: 0.3s;
+    z-index: 11;
+}
+nav img{
+    position: relative;
+    top: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 60px;
+    width: auto;
+}
+nav ul{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    list-style: none;
+    margin-left: 40px;
+}
+nav ul li{
+    margin: 15px 0;
+    padding: 10px 0;
+}
+nav a{
+    color: #21a179;
+    font-weight: 600;
+    font-size: 120%;
+    text-decoration: none;
+    transition: 0.1s;
+}
+nav a:hover{
+    text-decoration: line-through;
+    padding-left:10px;
+    color: #82ff9e;
+}
+nav:hover{
+    background-color: #2a2a33;
+    transform: translateX(0);
+}
